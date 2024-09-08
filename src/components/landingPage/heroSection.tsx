@@ -75,7 +75,7 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative container mx-auto text-center py-24 sm:py-32 px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl sm:text-6xl font-bold mb-6 leading-tight drop-shadow-lg tracking-tight max-w-4xl mx-auto">
-          Building Cutting-Edge Software for Tomorrow's Solutions
+          Building Cutting-Edge Software for Tomorrow&apos;s Solutions
         </h2>
         <p className="text-lg sm:text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
           From mobile apps to AI-powered platforms, we create tech solutions

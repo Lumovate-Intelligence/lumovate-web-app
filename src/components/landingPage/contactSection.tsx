@@ -7,11 +7,11 @@ export default function ContactSection() {
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>
         <p className="text-lg mb-4">
-          Have an idea or project in mind? We're excited to help you bring it to
-          life.
+          Have an idea or project in mind? We&apos;re excited to help you bring
+          it to life.
         </p>
         <p className="mb-12 text-gray-600">
-          Contact us today and let's discuss your vision. We aim to respond
+          Contact us today and let&apos;s discuss your vision. We aim to respond
           within 24 hours.
         </p>
 
@@ -62,7 +62,7 @@ export default function ContactSection() {
             Send Message
           </button>
           <p className="mt-4 text-sm text-gray-600">
-            We'll never share your email with anyone else.
+            We&apos;ll never share your email with anyone else.
           </p>
         </form>
       </div>
