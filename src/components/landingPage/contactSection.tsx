@@ -2,7 +2,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="bg-gradient-to-b from-purple-50 to-purple-100 text-gray-900 py-20 px-6"
+      className="bg-gradient-to-b from-blue-50 to-blue-100 text-gray-900 py-20 px-6"
     >
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>
@@ -23,7 +23,7 @@ export default function ContactSection() {
             <input
               type="text"
               id="name"
-              className="w-full p-2 rounded-lg border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-purple-500"
+              className="w-full p-2 rounded-lg border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-blue-500"
               placeholder="Your Name"
               required
               aria-label="Your Name"
@@ -36,7 +36,7 @@ export default function ContactSection() {
             <input
               type="email"
               id="email"
-              className="w-full p-2 rounded-lg border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-purple-500"
+              className="w-full p-2 rounded-lg border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-blue-500"
               placeholder="Your Email"
               required
               aria-label="Your Email"
@@ -48,7 +48,7 @@ export default function ContactSection() {
             </label>
             <textarea
               id="message"
-              className="w-full p-2 rounded-lg border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-purple-500"
+              className="w-full p-2 rounded-lg border border-gray-300 placeholder-gray-500 focus:ring-2 focus:ring-blue-500"
               placeholder="Your Message"
               rows={2}
               required
@@ -57,7 +57,7 @@ export default function ContactSection() {
           </div>
           <button
             type="submit"
-            className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3 rounded-lg transition-colors"
+            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 rounded-lg transition-colors"
           >
             Send Message
           </button>

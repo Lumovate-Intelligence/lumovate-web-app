@@ -67,7 +67,7 @@ export default function WorkflowSection() {
             key={index}
             className="border bg-white rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300 hover:bg-gray-50"
           >
-            <div className="flex items-center justify-center w-12 h-12 bg-purple-500 text-white rounded-full mb-4">
+            <div className="flex items-center justify-center w-12 h-12 bg-blue-500 text-white rounded-full mb-4">
               {step.icon}
             </div>
             <h3 className="text-2xl font-semibold mb-3 text-gray-800">

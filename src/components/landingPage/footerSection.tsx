@@ -2,7 +2,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 export default function FooterSection() {
   return (
-    <footer className="bg-purple-500 text-white py-6">
+    <footer className="bg-blue-500 text-white py-6">
       <div className="container mx-auto text-center">
         <p>
           &copy; {new Date().getFullYear()} Lumovate Intelligence. All rights

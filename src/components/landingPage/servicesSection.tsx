@@ -42,9 +42,9 @@ export default function ServicesSection() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="border relative bg-gradient-to-br from-white to-gray-50 hover:from-indigo-50 hover:to-purple-50 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 p-8 group"
+            className="border relative bg-gradient-to-br from-white to-gray-50 hover:from-indigo-50 hover:to-blue-50 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 p-8 group"
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-0 group-hover:opacity-20 rounded-lg transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-blue-500 opacity-0 group-hover:opacity-20 rounded-lg transition-opacity duration-300"></div>
             <div className="relative z-10 flex flex-col items-center">
               <div className="bg-indigo-100 text-indigo-600 rounded-full p-4 text-4xl mb-4 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110">
                 {service.icon}
