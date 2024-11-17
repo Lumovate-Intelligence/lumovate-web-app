@@ -1,1 +1,0 @@
-# Lumovate Intelligence
